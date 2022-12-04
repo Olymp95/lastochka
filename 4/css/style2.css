@@ -1,0 +1,60 @@
+body {
+	font-family: Economica;
+	margin: 10px 0px;
+}
+
+div {
+	background-color: blueviolet;
+	width: 100%;
+}
+
+
+.home {
+	color: aliceblue;
+	font-size: 20px;
+	margin-left: 100px;
+	padding: 7px;
+	font-weight: 700;
+}
+
+
+.list {
+	display: inline-block;
+	color: aliceblue;
+	font-size: 20px;
+	padding: 7px;
+	font-weight: 700;
+}
+
+.list1 {
+	float: right;
+	clear: left;
+	color: aliceblue;
+	font-size: 20px;
+	margin: 0 100px;
+	padding: 7px;
+	font-weight: 700;
+}
+
+
+span:hover.list {
+	background-color: rgb(235, 235, 235);
+	color: rgb(119, 119, 119);
+	padding: 7px;
+	font-size: 20px;
+}
+
+.home:hover {
+	
+	background-color: rgb(235, 235, 235);
+	color: rgb(119, 119, 119);
+	padding: 7px;
+	font-size: 20px;
+}
+
+.list1:hover {
+	background-color: rgb(235, 235, 235);
+	color: rgb(119, 119, 119);
+	padding: 7px;
+	font-size: 20px;
+}

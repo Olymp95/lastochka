@@ -1,0 +1,49 @@
+ul {
+    color: blueviolet;
+    font-weight: 700;
+    list-style-type: none; 
+}
+.list li {
+    display: inline-block;
+}
+
+.first {
+   margin-right: 20px;
+}
+
+.prev {
+    margin-right: 10px;
+}
+
+.nomber {
+    border: 2px solid rgba(128, 128, 128, 0.607);
+    border-radius: 8px;
+    padding: 8px;
+    width: 15px;
+    text-align: center;
+    margin: 0px 3px;
+}
+
+.dot {
+    font-size: 23px;
+    margin: 0px 7px ;
+}
+
+.next {
+    margin-left: 10px;
+}
+
+.last {
+    margin-left: 20px;
+}
+
+.nomber:hover {
+    color: azure;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    padding: 8px;
+    width: 15px;
+    text-align: center;
+    margin: 0px 3px;
+}
