@@ -6,17 +6,9 @@ body {
 	font-weight: 700;
 }
 
-span {
-	margin: 0;
-    background-color: rgb(46, 168, 216);
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate( -50%)
-}
-
 .navbar {
-	height: 53px;
+	text-align: center;
+	display: inline-block;
 	width: 100%;
     background-color: rgb(46, 168, 216);
 }
@@ -26,13 +18,15 @@ span {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-	
 }
 
+.menu {
+	padding: 0;
+	margin: 0;
+}
 
 .list {
-    float: left;
-    overflow: hidden;
+    display: inline-block;
 }
 
 .list .menu {
@@ -52,11 +46,10 @@ span {
     background-color: gray;
 }
 
-
 .list-content a {
-    float: none;
+    text-align: center;
     color: white;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -65,8 +58,8 @@ span {
 }
 
 .list:hover .list-content {
-    display: flex;
-	left: -150%;
-	padding-left: 170%;
-    min-width: 300%;
+    display: block;
+	width: 100%;
+	position: absolute;
+	left: 0;
 }
