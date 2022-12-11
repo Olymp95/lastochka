@@ -1,11 +1,11 @@
 body {
+    margin: 0px;
     font-family: Montserrat;
 }
 
 .reviews {
     display: block;
     height: 315px;
-    width: 100%;
     background-image: url("../img/back.jpg");
 }
 
@@ -22,7 +22,8 @@ body {
     font-weight: 200;
     color: #3170a8;
     font-size: 40pt;
-    padding-top: 58px;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
 }
 
 .h2-orange {
@@ -30,12 +31,14 @@ body {
 }
 
 .all-foto-coment {
-    
+    display: block;
+    text-align: center;
 }
 
 .girl-foto {
+    position: relative;
+    display: inline-block;
     padding: 0px;
-    
     width: 100px;
     height: 100px;
     
@@ -43,18 +46,74 @@ body {
 
 .white-triangle {
     position: relative;
-    top: -35px;
-    left: 10px;
-    margin: auto;
+    top: -36px;
+    display: inline-block;
+}
+
+
+.white-triangle2 {
+    position: relative;
+    top: -36px;
     display: inline-block;
 }
 
 .coment-box {
+    padding: 10px;
     position: relative;
-    left: -4px;
-    top: 35px;
+    margin: 0px;
+    top: 10px;
+    left: -5px;
     display: inline-block;
     background-color: white;
-    width: 365px;
+    width: 345px;
+    height: 80px;
+}
+
+.coment-text {
+    display: block;
+    font-size: 13pt;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: left;
+    color: #3170a8;
+}
+
+.coment-customers {
+    position: relative;
+    top: -22px;
+    display: block;
+    font-size: 13pt;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: right;
+    color: #3170a8;
+    right: 0px;
+}
+
+.coment-dot {
+    position: relative;
+    top: -22px;
+    display: block;
+    font-size: 13pt;
+    text-align: center;
+    color: #3170a8;
+}
+
+.coment-coment {
+    width: 350px;
+    position: relative;
+    top: -21px;
+    display: block;
+    font-size: 13pt;
+    text-align: left;
+    color: #868686;
+}
+
+.men-foto {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 100px;
     height: 100px;
+    margin-left: 40px;
 }
