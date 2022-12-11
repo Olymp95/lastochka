@@ -108,6 +108,8 @@ img {
     top: -65px;
     margin: auto;
     padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
 }
 
 .two-tile {
@@ -150,17 +152,8 @@ img {
 }
 
 .button-enrol2 {
-    color: white;
-    border: 0px;
-    height: 40px;
     border-bottom: 3px solid #b35715;
-    width: 260px;
-    border-radius: 4px;
     background-color: #ec8136;
-    position: relative;
-    top: -65px;
-    margin: auto;
-    padding: 10px 20px;
 }
 
 .tree-tile {
