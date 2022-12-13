@@ -2,19 +2,36 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table {
-    text-align: justify;
-    width: 700px
-}
-
-p {
+.table{
+    width:50%;
+    font-family:Arial,serif;
+    text-align:justify;
+    color:rgba(0, 0, 0, 0);
+    text-shadow: 0 0 3px black;
+    }
+    .table p:after{
+    content:"";
+    display:inline-block;
+    width:100%;
+    }
+    .hline{
     
-}
-
-.line1 {
-    font-size: 80px
-}
-
-.hline {
-    width: 30;
-}
+    border-bottom:1px solid red;
+    }
+    p{
+    line-height:10px;
+    
+    }
+    
+    .line01{font-size:4em;}
+    .line02{font-size:3em;}
+    .line03{font-size:2em;}
+    .line04{font-size:1.5em;}
+    .line05{font-size:1.3em;}
+    .line06{font-size:1.2em;}
+    .line07{font-size:1.1em;}
+    .line08{font-size:1.0em;}
+    .line09{font-size:0.9em;}
+    .line10{font-size:0.8em;}
+    .line12{font-size:0.7em;}
+    .line13{font-size:0.6em;}
