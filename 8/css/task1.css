@@ -1,0 +1,60 @@
+.foma {
+    margin: 50px;
+}
+
+.main-box {
+    position: relative;
+    display: block;
+    background-color: #ffcc66;
+    width: 100%;
+    height: 60px;
+}
+
+.cute-box {
+    z-index: -2;
+    display: inline-block;
+    position: absolute;
+    transform: scale(0.4, 0.7) rotate(45deg); 
+    right: -30px;
+    background-color: #ffcc66;
+    width: 60px;
+    height: 60px;
+}
+
+.search-blok{
+    position: relative;
+    padding-right: 85px;
+}
+
+#Google {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 25px;
+    border: 1px solid rgba(173, 173, 173, 0.685);
+    outline: none;
+    margin: 8px 6px;
+
+}
+
+.search-button {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    height: 25px;
+    display: inline-block;
+}
+
+.check {
+    margin-left: 6px;
+    position: relative;
+    top: -4px;
+}
+
+span {
+    position: relative;
+    top: -2px;
+}
