@@ -160,6 +160,14 @@ h2 {
     border: 1px solid rgba(220, 220, 220, 0.432);
 }
 
+
+
+
+
+
+
+
+
 .two-block {
     margin-top: 700px;
     height: 585px;
@@ -180,11 +188,11 @@ h2 {
     font-family: Montserrat;
     font-weight: 700;
     color: #41525c;
-    font-size: 14pt;
+    font-size: 3.2ex;
 }
 
 .firt-colona {
-    margin: 0px 25px;
+    margin: 0px 20px;
     display: inline-block;
     width: 306px;
     position: relative;
@@ -300,6 +308,12 @@ h2 {
     line-height: 23px;
 }
 
+
+
+
+
+
+
 .tree-block {
     position: relative;
     height: 585px;
@@ -314,7 +328,13 @@ h2 {
     text-align: left;
 }
 
+.tree-bolock-all-content {
+    display: block;
+    text-align: center;
+}
+
 .tree-block-logo-text {
+    padding-right: 10%;
     display: inline-block;
     color: #ee8129;
     text-transform: uppercase;
@@ -322,7 +342,7 @@ h2 {
     font-size: 17pt;
     font-weight: 700;
     line-height: 35px;
-    margin-left: 189px ;
+    text-align: left;
     margin-top: 90px;
     width: 700px;
     margin-bottom: 25px;
@@ -361,6 +381,8 @@ li {
 
 
 
+
+
 .four-block {
     text-align: center;
     display: block;
@@ -370,10 +392,14 @@ li {
 .title-list {
     font-size: 4ex;
     display: block;
-    margin: 40px;
+    margin: 40px 0px 27px 0px;
     color: #16436a;
     font-weight: 700;
     font-family: Montserrat;
+}
+
+.all-tile {
+
 }
 
 .first-tile {
@@ -543,4 +569,129 @@ li {
     height: 75px;
     border-radius: 4px;
     text-align: center;
+}
+
+
+
+
+
+
+
+.reviews {
+    height: 320px;
+}
+
+.reviews {
+    display: block;
+    height: 315px;
+    background-image: url("../img/back.jpg");
+}
+
+.paranja-reviews {
+    position: relative;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(4, 9, 15, 0.918);
+}
+
+.reviews-h2 {
+    font-weight: 200;
+    color: #3170a8;
+    font-size: 40pt;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+.h2-orange {
+    color: orange;
+}
+
+.all-foto-coment {
+    display: block;
+    text-align: center;
+}
+
+.girl-foto {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.white-triangle {
+    position: relative;
+    top: -36px;
+    display: inline-block;
+}
+
+
+.white-triangle2 {
+    position: relative;
+    top: -36px;
+    display: inline-block;
+}
+
+.coment-box {
+    padding: 10px;
+    position: relative;
+    margin: 0px;
+    top: 10px;
+    left: -5px;
+    display: inline-block;
+    background-color: white;
+    width: 345px;
+    height: 80px;
+}
+
+.coment-text {
+    display: block;
+    font-size: 13pt;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: left;
+    color: #3170a8;
+}
+
+.coment-customers {
+    position: relative;
+    top: -22px;
+    display: block;
+    font-size: 13pt;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: right;
+    color: #3170a8;
+    right: 0px;
+}
+
+.coment-dot {
+    position: relative;
+    top: -22px;
+    display: block;
+    font-size: 13pt;
+    text-align: center;
+    color: #3170a8;
+}
+
+.coment-coment {
+    width: 350px;
+    position: relative;
+    top: -21px;
+    display: block;
+    font-size: 13pt;
+    text-align: left;
+    color: #868686;
+}
+
+.men-foto {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
 }
