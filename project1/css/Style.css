@@ -33,8 +33,9 @@ body {
 
 .text-heder {
     position: relative;
-    bottom: -64px;
+    bottom: -75px;
     right: 188px;
+    line-height: 10px;
 }
 
 .navbar a {
@@ -50,6 +51,7 @@ body {
 
 .list {
     display: inline-block;
+    
 }
 
 .list .menu {
@@ -59,11 +61,12 @@ body {
 }
 
 .navbar a:hover, .list:hover .menu{
-    background-color: gray;
-	
+    /* background-color: gray; */
+	border-bottom: 3px solid #3070a8;
+    
 }
 
-.list-content {
+/* .list-content {
     text-align: center;
     display: none;
     position: absolute;
@@ -88,12 +91,12 @@ body {
 	width: 100%;
 	position: absolute;
 	left: 0;
-}
+} */
 
 
 
 
-.first-blok {
+.first-block {
     position: absolute;
     top: 115px;
     margin: auto;
@@ -111,7 +114,7 @@ body {
     text-align: center;
 }
 
-.first-blok-text {
+.first-block-text {
     position: relative;
     margin: auto;
     display: block;
@@ -147,7 +150,7 @@ h3 {
     font-style: italic;
 }
 
-.button-first-blok {
+.button-first-block {
     margin-top: 50px;
     outline: none;
     color: white;
@@ -295,4 +298,61 @@ h3 {
     width: 306px;
     font-size: 10pt;
     line-height: 23px;
+}
+
+.tree-block {
+    position: relative;
+    height: 585px;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
+}
+
+.paranja2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.836);
+    text-align: left;
+}
+
+.tree-block-logo-text {
+    display: inline-block;
+    color: #ee8129;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 17pt;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 189px ;
+    margin-top: 90px;
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.tree-block-italic-text {
+    position: relative;
+    top: 25px;
+    text-transform: none;
+    color: white;
+    font-weight: 400;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 11pt;
+}
+
+.tree-block-list {
+    margin-top: 50px;
+    font-weight: 400;
+    color: gray;
+    text-transform: none;
+    font-size: 11pt;
+    line-height: 27px;
+    margin-left: -20px;
+}
+
+.osobena-li {
+    color: #3070a8;
+}
+
+li {
+    margin: 20px;
 }
