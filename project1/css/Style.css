@@ -3,28 +3,35 @@ body {
 	padding: 0;
 }
 
-.navbar {
+.navbar-box
+{
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
-    font-size: 2ex;
-	font-weight: 400;
-    font-family: Montserrat;
-	text-align: right;
-	display: inline-block;
-	width: 100%;
-    height: 116px;
+    height: 115px;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px #444;
 }
 
+.navbar {
+    position: relative;
+    width: 1024px;
+    margin: auto;
+    font-size: 2ex;
+	font-weight: 400;
+    font-family: Montserrat;
+	text-align: left;
+	display: block;
+}
+
 .logo {
+    display: inline-block;
+    width: 310px;
+    height: 50px;
     color: orange;
-    position: absolute;
-    left: 220px;
-    top: 30%;
     font-size: 5ex;
+    padding-top: 30px;
 }
 
 .logo-name {
@@ -33,9 +40,9 @@ body {
 }
 
 .text-heder {
-    clear: left;
+    text-align: right;
     position: relative;
-    right: 16%;
+    top: -81px;
     line-height: 10px;
 }
 
@@ -175,6 +182,7 @@ h2 {
     margin-top: 700px;
     height: 585px;
     text-align: center;
+    min-width: 1040px;
 }
 
 .two-blok-text {
@@ -318,6 +326,7 @@ h2 {
 
 
 .tree-block {
+    min-width: 1040px;
     position: relative;
     height: 585px;
     background-image: url(../img/people.jpg);
@@ -390,6 +399,7 @@ li {
     text-align: center;
     display: block;
     height: 585px;
+    min-width: 1040px;
 }
 
 .title-list {
@@ -582,6 +592,7 @@ li {
 
 .reviews {
     height: 320px;
+    min-width: 1040px;
 }
 
 .reviews {
