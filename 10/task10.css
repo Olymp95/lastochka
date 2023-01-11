@@ -1,0 +1,200 @@
+body 
+{
+    font-family: 'Lato', sans-serif; 
+}
+
+.text-box
+{
+    margin-top: 70px;
+    text-align: center;
+    display: block;
+}
+
+.main-text
+{
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 400;
+}
+
+.pod-text
+{
+    color: #909090;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.main-box
+{
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+    min-width: 430px
+}
+
+.first-blok
+{
+    padding: 15px;
+    display: inline-block;
+    width: 360px;
+    height: 260px;
+}
+
+.first-img
+{
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/1.jpg")
+}
+
+.two-img
+{
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/2.jpg")
+}
+
+.three-img
+{
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/3.jpg")
+}
+
+.four-img
+{
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/4.jpg")
+}
+
+.five-img
+{
+    position: relative;
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/5.jpg")
+}
+
+.six-img
+{
+    margin: 15px;
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    background-image: url("../10/img/6.jpg")
+}
+
+.first-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/1.jpg");
+}
+
+.two-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/2.jpg");
+}
+
+.three-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/3.jpg");
+}
+
+.four-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/4.jpg");
+}
+
+.five-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/5.jpg");
+}
+
+.six-img:hover
+{
+    width: 360px;
+    height: 260px;
+    background-image:
+    url("../10/img/button.png"),
+    url("../10/img/paranja.png"),
+    url("../10/img/6.jpg");
+}
+
+.button-zoom
+{
+    border-radius: 2px;
+    background-color: transparent;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 111px;
+    left: 136px;
+}
+
+.button-zoom:hover
+{
+    border-radius: 2px;
+    background-color: rgba(0, 140, 255, 0.37);
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 111px;
+    left: 136px;
+}
+
+.button-link
+{
+    background-color: transparent;
+    border-radius: 2px;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 73px;
+    left: 186px;
+}
+
+.button-link:hover
+{
+    border-radius: 2px;
+    background-color: rgba(0, 140, 255, 0.37);
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 73px;
+    left: 186px;
+}
