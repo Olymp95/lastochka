@@ -26,10 +26,12 @@ body
 
 .main-box
 {
+    position: relative;
     margin: auto;
     text-align: center;
     max-width: 1500px;
-    min-width: 430px
+    min-width: 430px;
+    margin-bottom: 100px;
 }
 
 .first-blok
@@ -78,7 +80,6 @@ body
 
 .five-img
 {
-    position: relative;
     margin: 15px;
     width: 360px;
     height: 260px;
@@ -198,3 +199,57 @@ body
     top: 73px;
     left: 186px;
 }
+
+.paranja
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.open
+{
+    outline: 3px solid rgb(139, 139, 139);
+    position: relative;
+    top: 230px;
+    max-width: 1142px;
+    height: 550px;
+    min-width: 360px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.open-img
+{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url("../10/img/2.jpg");
+    background-size: cover;
+}
+
+.button-close
+{
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: #25a6f7;
+}
+
+.button-close:hover
+{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: #f73325;
+}
+
