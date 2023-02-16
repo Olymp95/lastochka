@@ -6,7 +6,7 @@
 //   result = 'Noup!';
 // }
 
-var a = 1, b = 1 ;
+var a = 1, b = 2 ;
 
 ((a + b)>= 3)  ? result = 'Yep!' : result = 'Noup!';
 alert(result);
